@@ -1,4 +1,3 @@
-```markdown
 # カスタムタグデモアプリケーション
 
 このプロジェクトは、Spring Bootアプリケーションでカスタムタグを使用する方法を示しています。特定のフォーマットで`div`要素内にメッセージを表示するカスタムタグが含まれています。
@@ -27,7 +26,7 @@
 ```jsp
 <%@ taglib prefix="ex" uri="http://www.example.com/tags" %>
 <ex:displayMessage message="こんにちは、世界！"/>
-```
+``` 
 
 ## 構築に使用されたもの
 
