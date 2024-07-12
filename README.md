@@ -32,3 +32,39 @@
 
 - [Spring Boot](https://spring.io/projects/spring-boot) - 使用されたウェブフレームワーク
 - [Gradle](https://gradle.org/) - 依存関係管理
+
+## プロジェクト構成
+プロジェクトのディレクトリ構造
+```
+src
+│
+├─main		
+│  ├─java		
+│  │  └─com		
+│  │      └─example		
+│  │          └─customtagdemo		
+│  │              │  CustomtagdemoApplication.java		
+│  │              │		
+│  │              ├─controllers		
+│  │              │      HomeController.java		
+│  │              │		
+│  │              └─tags		
+│  │                      DisplayMessageTag.java		
+│  │		
+│  ├─resources		
+│  │  │  application.properties		
+│  │  │		
+│  │  ├─META-INF		
+│  │  │      example.tld		
+│  │  │		
+│  │  ├─static		
+│  │  └─templates		
+│  └─webapp		
+│      └─WEB-INF		
+│          │  web.xml		
+│          │		
+│          └─views		
+│                  home.jsp		
+│		
+└─build.gradle		
+```
