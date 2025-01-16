@@ -21,7 +21,7 @@ public class HomeController {
 
     @GetMapping("/exam3")
     public String exam3_sample(Model model) {
-        model.addAttribute("arg1", "カスタムタグでh1にしたよ☆");
+        model.addAttribute("arg1", "カスタムタグでh1に！！");
         return "sample_customtag";
     }
 
