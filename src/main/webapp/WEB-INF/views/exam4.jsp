@@ -9,7 +9,6 @@
 <body>
     <h1>カスタムタグによるデータテーブル</h1>
     <%--ここにカスタムタグで表示させる--%>
-    <myCustomTag:dataTable headers="${headers}" data="${data}" className="custom-table"/>
     <%--ここまで--%>
 
     <div style="margin-top: 20px;">

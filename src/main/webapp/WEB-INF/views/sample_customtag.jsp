@@ -9,7 +9,7 @@
 <!-- exampleタグライブラリからdisplayMessageタグを使用してメッセージを表示 -->
 <example:displayH1Message message="displayH1messageです：${arg1}" />
 <div style="margin-top: 20px;">
-    <form action="/exam1">
+    <form action="/exam2">
         <button type="submit">戻る</button>
     </form>
 </div>
