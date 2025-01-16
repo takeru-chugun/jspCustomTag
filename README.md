@@ -1,4 +1,4 @@
-# sazabiスタック学習(JSP,JSTL)
+# JSP,JSTL研修
 
 このプロジェクトは、Spring Bootアプリケーションでカスタムタグを使用する方法を示しています。
 
