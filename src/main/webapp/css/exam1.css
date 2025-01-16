@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 50px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0078d4;
+    margin-top: 20px;
+}
+
+.answer {
+    background: #e7f3ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f0f8ff;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+.default-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.default-table th, .default-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.default-table th {
+    background-color: #f4f4f9;
+    font-weight: bold;
+}
+
+.custom-table {
+    width: 100%;
+    border: 2px solid #0078d4;
+    border-collapse: collapse;
+}
+
+.custom-table th {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px;
+}
+
+.custom-table td {
+    padding: 8px;
+    border: 1px solid #0078d4;
+}
