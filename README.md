@@ -20,16 +20,9 @@
 
 ## 使用方法
 ハンズオンはクイズ形式となっており、`http://localhost:8080/exam1`で表示されるはずです。
-`exam1.jsp`, `exam2.jsp`, `exam3.jsp`...を編集してください。
-他の部分のコードは書き換えずに、`あなたの解答：`直下に書き込んでください。
+資料に沿って問題を解いていってください。まとめてやってメンターに採点してもらっても大丈夫です。
+exam4.jsp以外は他の部分のコードは書き換えずに、`あなたの解答：`直下に書き込んでください。
 
-
-## JSPの基本
-アプリケーションは、`div`要素内にメッセージを表示するプロセスをカプセル化する`displayMessage`というカスタムタグを定義しています。このタグは、次のようにJSPファイルで使用できます：
-```jsp
-<%@ taglib prefix="ex" uri="http://www.example.com/tags" %>
-<ex:displayMessage message="こんにちは、世界！"/>
-``` 
 
 ## 構築に使用されたもの
 
@@ -51,23 +44,31 @@ src
 │  │              ├─controllers		
 │  │              │      HomeController.java		
 │  │              │		
-│  │              └─tags		
-│  │                      DisplayMessageTag.java		
+│  │              └─tags
+│  │                      DataTableTag.java
+│  │                      DisplayH1MessageTag.java		
 │  │		
 │  ├─resources		
 │  │  │  application.properties		
 │  │  │		
 │  │  ├─META-INF		
-│  │  │      example.tld		
+│  │  │      example.tld
+│  │  │      myCustomTag.tld	
 │  │  │		
 │  │  ├─static		
 │  │  └─templates		
-│  └─webapp		
+│  └─webapp
+│      └─CSS
+│      │     exam1.css
+│      │
 │      └─WEB-INF		
 │          │  web.xml		
 │          │		
 │          └─views		
-│                  home.jsp		
+│                  exam1.jsp		
+│                  exam2.jsp
+│                  exam4.jsp
+│                  sample_customtag.jsp		
 │		
 └─build.gradle		
 ```
