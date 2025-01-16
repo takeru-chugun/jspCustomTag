@@ -15,21 +15,21 @@
 <div>
     <h2>(1)変数を代入しましょう</h2>
     <!-- タグの中に任意のname:Stringとage:intの変数を定義して下さい。 -->
-    <div class="answer">
+    <div class="answer">あなたの解答：
         <% int age = 2; String name = "たろう"; %>
     </div>
 
     <h2>(2)変数を出力しましょう</h2>
     <!-- タグの中に定義した2つの変数を表示して下さい。 -->
     <!-- ヒント:<p>タグの中に... -->
-    <div class="answer">
+    <div class="answer">あなたの解答：
         <p>名前: <%= name %></p>
         <p>年齢: <%= age %></p>
     </div>
 
     <h2>(3)条件分岐を使いましょう</h2>
     <!-- 定義した`age`の値が20以上であれば「成人です」と表示し、20未満であれば「未成年です」と表示する -->
-    <div class="answer">
+    <div class="answer">あなたの解答：
         <% if(age >= 20){
             out.println("成人です");
         }else{
@@ -40,7 +40,7 @@
     <h2>(4)繰り返しを処理しよう</h2>
     <!-- for文で表示させましょう -->
     <!-- 1から5までの数字を表示する -->
-    <div class="answer">
+    <div class="answer">あなたの解答：
     <ul>
         <% for(int i = 1; i <= 5; i++){ %>
         <li><%= i %></li>

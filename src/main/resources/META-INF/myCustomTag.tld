@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="https://jakarta.ee/xml/ns/jakartaee" version="3.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>myCustomTag</short-name>
+    <uri>http://www.myCustomTag.com/tags</uri>
+    <!--    ここからカスタムタグを定義して下さい↓-->
+    <tag>
+        <name>dataTable</name>
+        <tag-class>com.example.customtagdemo.tags.DataTableTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>headers</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>data</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>className</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <!--    ここまで-->
+</taglib>

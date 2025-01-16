@@ -9,5 +9,9 @@
             <taglib-uri>http://www.example.com/tags</taglib-uri>
             <taglib-location>/META-INF/example.tld</taglib-location>
         </taglib>
+        <taglib>
+            <taglib-uri>http://www.myCustomTag.com/tags</taglib-uri>
+            <taglib-location>/META-INF/myCustomTag.tld</taglib-location>
+        </taglib>
     </jsp-config>
 </web-app>
