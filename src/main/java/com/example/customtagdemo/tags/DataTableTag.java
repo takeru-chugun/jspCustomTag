@@ -28,11 +28,8 @@ public class DataTableTag extends TagSupport {
     public int doStartTag() throws JspException {
         JspWriter out = pageContext.getOut();
         try {
-            // クラス名が指定されていない場合のデフォルト値
-            String tableClass = className != null ? className : "default-table";
-
             // テーブルの開始タグ
-            out.write("<table class='" + tableClass + "'>");
+            out.write("<table class='" + className + "'>");
 
             // ヘッダーの表示
             out.write("<thead><tr>");
